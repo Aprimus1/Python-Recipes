@@ -1,5 +1,10 @@
 import heapq
 
+'''
+Recipe for returning the item with the highest priority from queue...
+If two items have the same priority value, FIFO....
+'''
+
 class PriorityQueue:
     def __init__(self):
         self.queue = []
