@@ -1,3 +1,6 @@
+import csv
+from itertools import islice
+
 def csv_iterator(file, chunk):
     with open(file) as f:
         csv_reader = csv.reader(f)
